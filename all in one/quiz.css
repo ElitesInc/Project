@@ -1,0 +1,252 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    
+}
+.quiz-background{
+    background: rgba(0,0,0,0.7) url("quiz\ background.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+
+/* navbar styling start  */
+.navbar-container{
+    display: flex;
+    position: sticky;
+    top: 0px; 
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-image{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.logo-name{ 
+    font-size: xx-large;
+    font-weight: bold;
+    color:rgb(235, 24, 24);
+    font-family: 'Baloo Da 2';
+    text-decoration: underline;
+ 
+}
+
+.navbar-left{
+    width: 70%;
+}
+
+
+           /* close symbol start */
+.navbar-right{
+    width: 30%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 20
+  
+}
+.btn1{
+    background-color:black;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 40px;
+}
+.btn1:hover{
+    background-color:red;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 40px;
+}
+           /* close symbol end */
+
+
+/* navbar styling end */
+
+
+/* section styling start */
+section{
+    height:707.2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.question-box {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.question-number {
+    font-size: 18px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.question-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option-box {
+    width: 100%;
+    height: 62px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+}
+
+.option-btn {
+    font-size: 16px;
+    width: 100%;
+    height:100%;                                         
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+.option-btn:hover {
+    font-size: 16px;
+    width: 100%;
+    height:100%;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    
+}
+.option-btn:focus {
+    font-size: 16px;
+    width: 100%;
+    height:100%;                      /* problem in quiz due to this as not able to see previous selected option */
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    
+}
+
+#next-btn, #back-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+/* section styling end */
+
+
+
+
+
+
+
+
+/* footer styling start */
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height:250px;
+    
+    position: sticky;
+    bottom: 0px;
+
+}
+.footer-content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+.footer-content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:150px;
+    margin-right:150px;
+    color: white;
+
+}
+.footer-content2 h3{
+    color: grey;
+
+}
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+/* end of footer styling */
+
+
+
+/* divider line styling start*/
+.divider-line{
+    display: block;
+    border: 0px;
+    height:2px;
+    background-color: black;
+    background-image: linear-gradient(to right,rgba(190,190,190,0),rgba(255,255,255,0.75),rgba(190,190,190,0));
+}
+
+/* divider line styling start*/

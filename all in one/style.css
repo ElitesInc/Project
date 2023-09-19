@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+body{
+    background-color: black;
+}
+
+
+/* navbar styling start  */
+.navbar-container{
+    /* border: 2px solid black; */
+    display: flex;
+    position: fixed;
+    top: 0px; 
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo-image{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.logo-name{ 
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    font-size: xx-large;
+    font-weight: bold;
+    color:rgb(235, 24, 24);
+    font-family: 'Baloo Da 2';
+    text-decoration: underline;
+ 
+}
+
+.navbar-left{
+    width: 70%;
+}
+.navbar-list{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;  
+}
+.navbar-list li {
+    list-style: none;
+    margin:0px 20px 0px 100px;
+}
+.navbar-list li a{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.navbar-list li a:hover{
+    list-style: none;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:gray;
+}
+/* NO NEED FOR THIS CONTENT I GUESS ------------------
+.navbar-right{
+    background-color: blue;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search{
+    height:30px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:rgba(0,0,0,0.7);
+}
+
+#btn1{
+    height: 30px;
+    width: 40px;
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:rgba(0,0,0,0.8);
+
+} */
+
+/* navbar styling end  */ 
+
+
+/* background of section and navbar start */
+.background{
+    background: rgba(0,0,0,0.7) url("background\ option2.jpg") ;
+    background-size: cover;
+    background-blend-mode: color-burn ;
+
+}
+
+
+/* background of section and navbar END */
+
+
+
+/* section tag styling start */
+.section-container{
+    height: 707.20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.section-heading{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight:900 ;
+    font-size: 50px;
+    color: rgb(235, 24, 24);
+
+
+}
+.section-paragraph1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight:600 ;
+    font-size: 25px;
+    margin-top: 5px;
+
+
+}
+.section-paragraph2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight:300 ;
+    font-size: 20px;
+    margin-top: 5px;
+   
+
+
+}
+.section-button{
+    height: 50px;
+    width:180px;
+    font-size: 20px;
+    background-color:rgb(235, 24, 24);
+    color: whitesmoke;
+    margin-top: 40px;
+    border: none;
+    
+}
+.section-button:hover{
+    height: 50px;
+    width:180px;
+    font-size: 20px;
+    background-color:rgb(235, 24, 24);
+    color: whitesmoke;
+    margin-top: 40px;
+    border:2px dotted black;
+    text-decoration: underline;
+
+    
+}
+
+/* section tag styling end */
+
+
+/* footer styling start */
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height:250px;
+
+}
+.footer-content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+.footer-content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:150px;
+    margin-right:150px;
+    color: white;
+
+}
+.footer-content2 h3{
+    color: grey;
+
+}
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+/* end of footer styling */
+
+
+
+
+
+
+
+/* divider line styling start*/
+.divider-line{
+    display: block;
+    border: 0px;
+    height:2px;
+    background-image: linear-gradient(to right,rgba(190,190,190,0),rgba(255,2555,255,0.75),rgba(190,190,190,0));
+}
+
+/* divider line styling end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

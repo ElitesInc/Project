@@ -1,0 +1,55 @@
+/* In your "virtualtour.css" file */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Change the background color to your preference */
+    padding: 10px 20px; /* Adjust the padding as needed */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 40px; /* Adjust the size of the logo image */
+    height: auto;
+    margin-right: 10px; /* Add some spacing between the logo image and text */
+}
+
+.logo-name {
+    font-family: 'Baloo Da 2', cursive; /* Apply the Baloo Da 2 font */
+    font-size: 24px; /* Adjust the font size */
+    color: #fff; /* Change the text color to your preference */
+    text-decoration: none;
+}
+
+.btn1 {
+    background-color: transparent;
+    border: none;
+    color: #fff; /* Change the text color to your preference */
+    cursor: pointer;
+    font-family: 'Material Symbols Outlined', sans-serif;
+    font-size: 20px; /* Adjust the font size */
+}
+
+/* In your "virtualtour.css" file */
+.region-button {
+    background-color: #007BFF; /* Change the background color to your preference */
+    color: #fff; /* Change the text color to your preference */
+    border: none;
+    padding: 12px 24px; /* Slightly larger padding for a more prominent look */
+    font-size: 18px; /* Slightly larger font size */
+    cursor: pointer;
+    margin: 10px 5px; /* More spacing between buttons horizontally and vertically */
+    border-radius: 25px; /* Rounded corners for a button shape */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.region-button:hover {
+    background-color: #0056b3; /* Change to a darker shade on hover */
+    transform: scale(1.05); /* Slight scale-up effect on hover */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}

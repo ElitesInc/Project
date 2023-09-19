@@ -14,6 +14,6 @@ function redirect_virtualtour_map(){
 //     location.replace('indexmap.html');
 // }
 
-// function redirect_interactive_map(){
-//     location.replace('indexmap.html');
-// }
+function redirect_chatbox(){
+    location.replace('chatbox.html');
+}

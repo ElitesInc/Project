@@ -1,7 +1,19 @@
-Contributers of the Project
-1]Aditya Shintre [leader]
-2]Aditya Wankhede
-3]Subodh Salgaonkar
-4]Soham Potharkar
-5]Rohan Parab
-6]Swarali
+Go Into the Main_Project folder.
+
+
+
+
+Open index.html file 
+
+
+
+
+
+Now you are good to go. Explore our Website 
+
+
+
+
+
+
+Thank You!!
